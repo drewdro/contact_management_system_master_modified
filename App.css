@@ -1,0 +1,155 @@
+.App {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/*  Header Title: Contact Management System */
+.header {
+  border-bottom: solid #4e7cc7 2px;
+  margin-bottom: 50px;
+}
+
+.header h1{
+  font-size: 32px;
+  letter-spacing: -1px;
+  color: #1c3767;
+  
+}
+
+/* form */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.information {
+  padding-right: 50px;
+  font-weight: bold;
+}
+
+input {
+  padding: 8px;
+  font-size: 1em;
+}
+
+.box{
+  display: block;
+  width: 200px;
+}
+
+.box:hover {
+  background-color: #f2f2f2;
+}
+
+.submit {
+  background-color: #4683ee;
+  font-weight: bold;
+  border: none;
+  color: white;
+  padding: 10px;
+  border-radius: 3px;
+  width: 221px;
+  margin-top: 20px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.submit:hover {
+  background-color: #2e62b6;
+}
+
+.contact-border {
+  border-bottom: solid #4e7cc7 2px;
+  margin-top: 50px;
+}
+
+.cancel {
+  border: 2px solid #4683ee; 
+  font-weight: bold;
+  color: black;
+  padding: 10px;
+  border-radius: 3px;
+  width: 221px;
+  font-size: 1em;
+  cursor: pointer;
+  background-color: white;
+}
+
+.cancel:hover{
+  background-color: rgb(232, 232, 232);
+}
+
+/* Add Contacts Button */
+.contacts-button {
+  display: inline;
+  float: right;
+  background-color: #4683ee;
+  font-weight: bold;
+  border: none;
+  color: white;
+  border-radius: 3px;
+  padding: 10px;
+}
+
+.contacts-button:hover{
+  background-color: #2e62b6;
+}
+
+
+/* Contact List Table */
+h2 {
+  font-size: 24px;
+  letter-spacing: -1px;
+  color: #1c3767;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  width: 200px;
+}
+
+th {
+  background-color: #4683ee;
+  color: white;
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+  
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+button {
+  margin-right: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.edit:hover {
+  background-color: rgb(41, 125, 41);
+  color: white;
+  border: 3px solid rgb(41, 125, 41);
+  border-radius: 2px; 
+}
+
+.delete:hover {
+  background-color: rgba(237, 52, 52, 0.948);
+  color: white;
+  border: 3px solid rgba(237, 52, 52, 0.948);
+  border-radius: 2px;
+}
